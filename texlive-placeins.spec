@@ -1,3 +1,9 @@
+# revision 19848
+# category Package
+# catalog-ctan /macros/latex/contrib/placeins
+# catalog-date 2010-09-22 15:00:44 +0200
+# catalog-license pd
+# catalog-version 2.2
 Name:		texlive-placeins
 Version:	2.2
 Release:	1
@@ -40,6 +46,7 @@ appear before the next \section command.
 %doc %{_texmfdistdir}/doc/latex/placeins/placeins-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/placeins/placeins-doc.tex
 %doc %{_texmfdistdir}/doc/latex/placeins/placeins.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ appear before the next \section command.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
