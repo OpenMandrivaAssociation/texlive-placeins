@@ -6,7 +6,7 @@
 # catalog-version 2.2
 Name:		texlive-placeins
 Version:	2.2
-Release:	4
+Release:	5
 Summary:	Control float placement
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/placeins
