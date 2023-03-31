@@ -1,6 +1,6 @@
 Name:		texlive-placeins
 Version:	19848
-Release:	1
+Release:	2
 Summary:	Control float placement
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/placeins
