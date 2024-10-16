@@ -3,7 +3,7 @@ Version:	19848
 Release:	2
 Summary:	Control float placement
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/placeins
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/placeins
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/placeins.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/placeins.doc.r%{version}.tar.xz
